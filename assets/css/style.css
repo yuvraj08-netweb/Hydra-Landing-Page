@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;;
+}
+.textGradient{
+    background: linear-gradient(269deg, #C0B7E8 -3.72%, #8176AF 82.17%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.textGradientReverse{
+    background: linear-gradient(269deg, #8176AF  -3.72%, #C0B7E8 82.17%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.themeBackground{
+    color: #343045;
+    background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+.radialBackground{
+    background: radial-gradient(50% 50% at 50% 50%, #433D60 0%, #211E2E 100%);
+}
+.radialBackgroundSpecial{
+    background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+.btn{
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 12px;
+}
+.paraGraph{
+    size: 16px;
+    font-weight: 400px;
+}
+.heroImgContainer{
+    padding: 10px;
+    background-color: #00000021;
+    max-width: fit-content;
+    margin-left: auto;
+    border-radius: 110px;
+    border-bottom-left-radius: 250px;
+}
+.techHeaderImg{
+    background: url("../img/pexels-rodnae-productions-8097332\ 1.png");
+}

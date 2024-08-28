@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydra Landing Page | Yuvraj</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        themeColor: '#302C42',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-themeColor text-white">
+    <section id="heroSection">
+        <div class="navContainer mt-10 container m-auto">
+            <nav class="flex justify-between items-center xl:w-full w-[90%] m-auto">
+                <div class="navLeft">
+                    <div class="brand flex items-center">
+                        <div class="brandLogo">
+                            <img src="./assets/img/Frame.png" alt="logo" draggable="false">
+                        </div>
+                        <div class="brandName -mt-4 ml-2">
+                            <img src="./assets/img/Frame (1).png" alt="logo" draggable="false">
+                        </div>
+                    </div>
+                </div>
+                <div class="navRight flex justify-between w-[70%]">
+                    <div class="navRightLeft w-[50%]">
+                        <ul class="navLinks text-white flex justify-between text-xs font-bold leading-[50px]">
+                            <li class="navLink"><a href="#"> ABOUT </a></li>
+                            <li class="navLink"><a href="#"> SERVICES </a></li>
+                            <li class="navLink"><a href="#"> TECHNOLOGIES </a></li>
+                            <li class="navLink"><a href="#"> HOW TO</a></li>
+                        </ul>
+                    </div>
+                    <div class="navRightRight">
+                        <div class="buttonsContainer flex">
+                            <button class="navContact btn text-white border border-2"> CONTACT US </button>
+                            <button class="navJoinHydra btn themeBackground ml-8"> JOIN HYDRA </button>
+                        </div>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+        <div class="heroContent mt-32">
+            <div class="heroInner container m-auto">
+                <div class="grid grid-cols-2 xl:w-full w-[90%] m-auto">
+                    <div class="heroLeft">
+                        <div class="heading">
+                            <h1 class="heroHeading text-5xl font-bold leading-[60px]">
+                                <span class="textGradientReverse">Dive</span> Into The Depths <br>
+                                Of <span class="textGradient">Virtual Reality</span>
+                            </h1>
+                        </div>
+                        <div class="heroPara mt-9">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore
+                                nisl tincidunt eget. Lectus mauris eros in vitae .</p>
+                        </div>
+                        <div class="heroButton flex items-center mt-16">
+                            <button class="btn themeBackground">BUILD YOUR WORLD</button>
+                            <img src="./assets/img/arrow-small-right.png" alt="">
+                        </div>
+                    </div>
+                    <div class="heroRight">
+                        <div class="heroImgContainer">
+                            <img src="./assets/img/girlHeroSection.png" alt="" draggable="false" class="drop-shadow-xl">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contactSection mt-32">
+            <div
+                class="container m-auto flex items-center xl:justify-center contactInner radialBackgroundSpecial rounded-[500px] min-h-[167px] xl:w-full w-[90%] m-auto break-all">
+                <div class="location flex items-center border-r px-[50px]">
+                    <div class="contactLogo">
+                        <img src="./assets/img/Location-Icon.png" alt="" draggable="false">
+                    </div>
+                    <div class="contactInfo">
+                        <h3 class="text-2xl font-bold">Pay Us a Visit</h3>
+                        <p class="paraGraph mt-1">Union St, Seattle, WA 98101, United States</p>
+                    </div>
+                </div>
+                <div class="call flex items-center border-r px-[50px]">
+                    <div class="contactLogo">
+                        <img src="./assets/img/phone-call.png" alt="" draggable="false">
+                    </div>
+                    <div class="contactInfo ml-8">
+                        <h3 class="text-2xl font-bold">Give Us a Call</h3>
+                        <p class="paraGraph mt-1">(110) 1111-1010</p>
+                    </div>
+                </div>
+                <div class="email flex items-center px-[50px] ">
+                    <div class="contactLogo">
+                        <img src="./assets/img/mail.png" alt="" draggable="false">
+                    </div>
+                    <div class="contactInfo ml-8">
+                        <h3 class="text-2xl font-bold">Send Us a Message</h3>
+                        <p class="paraGraph mt-1"><a href="mailto:Contact@HydraVTech.com">Contact@HydraVTech.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="mt-32">
+        <div class="introInner container m-auto">
+            <div class="grid grid-cols-2">
+                <div class="gridLeft flex">
+                    <h2 class="uppercase text-4xl font-light leading-[50px]">
+                        <span class="font-bold "> Introduction </span>
+                        <br>to hydra vr
+                    </h2>
+                    <img src="./assets/img/Component 2.png" alt="" draggable="false" class="mt-6 -ml-5">
+                </div>
+                <div class="grid gridRight">
+                    <div class="paraContainer">
+                        <p class="paraGraph">Vitae sapien pellentesque habitant morbi tristique senectus et netus et.
+                            Feugiat
+                            nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo
+                            quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare
+                            lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="aboutContainer container m-auto mt-32">
+            <div class="grid grid-cols-2">
+                <div class="gridLeft">
+                    <div class="aboutImageContainer ">
+                        <img src="./assets/img/BoyAboutSection.png" alt="" draggable="false">
+                    </div>
+                </div>
+                <div class="gridRight mt-16">
+                    <h2 class="uppercase text-4xl font-light leading-[50px]">
+                        <span class="font-bold "> ABOUT </span>
+                        <br>HYDRA VR
+                    </h2>
+                    <p class="paraGraph mt-9">
+                        Eget mi proin sed libero enim sed faucibus turpis. Nisl rhoncus mattis rhoncus
+                        urna neque viverra justo. Vivamus at augue eget arcu dictum. Ultrices gravida
+                        dictum fusce ut placerat orci. Aenean et tortor at risus viverra adipiscing at in.
+                        Mattis aliquam faucibus purus in massa. Est placerat in egestas erat imperdiet
+                        sed. Consequat semper viverra nam libero justo laoreet sit amet. Aliquam
+                        etiam erat velit scelerisque in dictum non consectetur a. Laoreet sit amet
+                        cursus sit amet. Vel eros donec ac odio tempor orci dapibus. Sem nulla pha
+                        retra diam sit amet nisl suscipit adipiscing bibendum. Leo a diam sollicitudi
+                        n tempor.
+                    </p>
+                    <button class=" btn themeBackground mt-9">LET’S GET IN TOUCH</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="whyBuild" class="mt-32">
+        <div class="introInner container m-auto">
+            <div class="grid grid-cols-2">
+                <div class="gridLeft flex">
+                    <h2 class="uppercase text-4xl font-light leading-[50px]">
+                        <span class="font-bold "> WHY BUILD </span>
+                        <br>WITH HYDRA?
+                    </h2>
+                    <img src="./assets/img/Component 2.png" alt="" draggable="false" class="mt-6 ml-5">
+                </div>
+                <div class="grid gridRight">
+                    <div class="paraContainer">
+                        <p class="paraGraph">Vitae sapien pellentesque habitant morbi tristique senectus et netus et.
+                            Feugiat
+                            nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo
+                            quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare
+                            lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container m-auto cardsContainer mt-32">
+            <div class="grid grid-cols-4 gap-4">
+                <div class="card radialBackground text-center rounded-[50px] px-6 py-8">
+                    <div class="cardImageContainer rounded-full bg-[#0E0E0E52] max-w-max m-auto p-4">
+                        <img src="./assets/img/Mask group (3).png" alt="" draggable="false">
+                    </div>
+                    <div class="cardHeading mt-9">
+                        <h3 class="text-2xl font-bold">SIMULATION</h3>
+                    </div>
+                    <span class="inline-block w-[70%] border border-[#C0B7E854]"></span>
+                    <div class="cardInfo mt-5">
+                        <p class="paraGraph text-left">
+                            Vitae sapien pellentesque habitant morbi
+                            nunc. Viverra aliquet porttitor rhoncus
+                            libero justo laoreet sit amet vitae.
+                        </p>
+                    </div>
+                    <div class="cardButton mt-9">
+                        <button class="btn themeBackground">TRY IT NOW</button>
+                    </div>
+                </div>
+                <div class="card radialBackground text-center rounded-[50px] px-6 py-8">
+                    <div class="cardImageContainer rounded-full bg-[#0E0E0E52] max-w-max m-auto p-4">
+                        <img src="./assets/img/Mask group (4).png" alt="" draggable="false">
+                    </div>
+                    <div class="cardHeading mt-9">
+                        <h3 class="text-2xl font-bold">EDUCATION</h3>
+                    </div>
+                    <span class="inline-block w-[70%] border border-[#C0B7E854]"></span>
+                    <div class="cardInfo mt-5">
+                        <p class="paraGraph text-left">
+                            Vitae sapien pellentesque habitant morbi
+                            nunc. Viverra aliquet porttitor rhoncus
+                            libero justo laoreet sit amet vitae.
+                        </p>
+                    </div>
+                    <div class="cardButton mt-9">
+                        <button class="btn themeBackground">TRY IT NOW</button>
+                    </div>
+                </div>
+                <div class="card radialBackground text-center rounded-[50px] px-6 py-8">
+                    <div class="cardImageContainer rounded-full bg-[#0E0E0E52] max-w-max m-auto p-4">
+                        <img src="./assets/img/Mask group (5).png" alt="" draggable="false">
+                    </div>
+                    <div class="cardHeading mt-9">
+                        <h3 class="text-2xl font-bold">SELF-CARE</h3>
+                    </div>
+                    <span class="inline-block w-[70%] border border-[#C0B7E854]"></span>
+                    <div class="cardInfo mt-5">
+                        <p class="paraGraph text-left">
+                            Vitae sapien pellentesque habitant morbi
+                            nunc. Viverra aliquet porttitor rhoncus
+                            libero justo laoreet sit amet vitae.
+                        </p>
+                    </div>
+                    <div class="cardButton mt-9">
+                        <button class="btn themeBackground">TRY IT NOW</button>
+                    </div>
+                </div>
+                <div class="card radialBackground text-center rounded-[50px] px-6 py-8">
+                    <div class="cardImageContainer rounded-full bg-[#0E0E0E52] max-w-max m-auto p-4">
+                        <img src="./assets/img/Mask group (6).png" alt="" draggable="false">
+                    </div>
+                    <div class="cardHeading mt-9">
+                        <h3 class="text-2xl font-bold">OUTDOOR</h3>
+                    </div>
+                    <span class="inline-block w-[70%] border border-[#C0B7E854]"></span>
+                    <div class="cardInfo mt-5">
+                        <p class="paraGraph text-left">
+                            Vitae sapien pellentesque habitant morbi
+                            nunc. Viverra aliquet porttitor rhoncus
+                            libero justo laoreet sit amet vitae.
+                        </p>
+                    </div>
+                    <div class="cardButton mt-9">
+                        <button class="btn themeBackground">TRY IT NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="techUsed" class="techUsed mt-32">
+        <div class="techInner container m-auto">
+            <div class="techHeaderImg min-h-[300px] rounded-[500px] flex justify-center items-center">
+                <h2 class="uppercase text-4xl font-light leading-[50px]">
+                    <span class="font-bold "> TECHNOLOGIES & HARDWARE </span>
+                    <br>USED BY HYDRA VR.
+                </h2>
+            </div>
+            <div class="arrowDownDiv flex justify-center -mt-8 ">
+                <div class="shadow rounded-full bg-[#0E0E0E52] p-4 max-w-max">
+                    <div class="arrowContainer themeBackground max-w-max rounded-full">
+                        <img src="./assets/img/chevron-small-down.png" alt="" draggable="false">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="techLogos container m-auto">
+            <div class="grid grid-cols-4 ">
+                <div class="techLogo">
+                    <div class="techLogoOne">
+                        <img src="./assets/img/e637cd9dd39a3af7b7f478409f4afe10.png" alt="" draggable="false" class="opacity-[36%] w-[80%] m-auto ">
+                    </div>
+                </div>
+                <div class="techLogo">
+                    <div class="techLogoOne">
+                        <img src="./assets/img/unity.png" alt="" draggable="false" class="opacity-[36%] w-[80%] m-auto">
+                    </div>
+                </div>
+                <div class="techLogo">
+                    <div class="techLogoOne">
+                        <img src="./assets/img/oculus.png" alt="" draggable="false" class="opacity-[36%] w-[80%] m-auto">
+                    </div>
+                </div>
+                <div class="techLogo">
+                    <div class="techLogoOne">
+                        <img src="./assets/img/vive.png" alt="" draggable="false" class="opacity-[36%] w-[80%] m-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="howWeBuild" class="mt-32 relative ">
+        <div class="howWeBuildInner container m-auto">
+            <div class="grid grid-cols-2">
+                <div class="gridLeft flex">
+                    <h2 class="uppercase text-4xl font-light leading-[50px]">
+                        <span class="font-bold "> HOW WE BUILD </span>
+                        <br>WITH HYDRA VR?
+                    </h2>
+                    <img src="./assets/img/Component 2.png" alt="" draggable="false" class="mt-6 ml-5">
+                </div>
+                <div class="grid gridRight">
+                    <div class="paraContainer">
+                        <p class="paraGraph">Vitae sapien pellentesque habitant morbi tristique senectus et netus et.
+                            Feugiat
+                            nibh sed pulvinar proin gravida hendrerit lectus. Mi sit amet mauris commodo
+                            quis imperdiet massa tincidunt nunc. Viverra aliquet eget sit amet tellus. Ornare
+                            lectus sit amet est placerat in. Lectus magna fringilla urna porttitor rhoncus vitae.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="stepsContainer container m-auto mt-32">
+            <div class="grid grid-cols-4 ">
+                <div class="step">
+                    <div class="shadow bg-[#0E0E0E52] max-w-max m-auto p-4 rounded-full">
+                        <div class="stepContainer themeBackground w-[160px] min-h-[160px] rounded-full flex justify-center items-center">
+                            <h2 class="text-6xl font-bold">01</h2>
+                        </div>
+                    </div>
+                    <div class="stepLower flex p-4">
+                        <div class="stepImageContainer">
+                            <img src="./assets/img/shape.png" alt="" draggable="false">
+                        </div>
+                        <div class="stepName ml-5">
+                            <h3 class="text-2xl font-bold">
+                                3D Conception & Design
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="shadow bg-[#0E0E0E52] max-w-max m-auto p-4 rounded-full">
+                        <div class="stepContainer themeBackground w-[160px] min-h-[160px] rounded-full flex justify-center items-center">
+                            <h2 class="text-6xl font-bold">02</h2>
+                        </div>
+                    </div>
+                    <div class="stepLower flex p-4">
+                        <div class="stepImageContainer">
+                            <img src="./assets/img/shape.png" alt="" draggable="false">
+                        </div>
+                        <div class="stepName ml-5">
+                            <h3 class="text-2xl font-bold">
+                                Interaction Design
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="shadow bg-[#0E0E0E52] max-w-max m-auto p-4 rounded-full">
+                        <div class="stepContainer themeBackground w-[160px] min-h-[160px] rounded-full flex justify-center items-center">
+                            <h2 class="text-6xl font-bold">03</h2>
+                        </div>
+                    </div>
+                    <div class="stepLower flex p-4">
+                        <div class="stepImageContainer">
+                            <img src="./assets/img/shape.png" alt="" draggable="false">
+                        </div>
+                        <div class="stepName ml-5">
+                            <h3 class="text-2xl font-bold">
+                                VR World User Testing
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="shadow bg-[#0E0E0E52] max-w-max m-auto p-4 rounded-full">
+                        <div class="stepContainer themeBackground w-[160px] min-h-[160px] rounded-full flex justify-center items-center">
+                            <h2 class="text-6xl font-bold">04</h2>
+                        </div>
+                    </div>
+                    <div class="stepLower flex p-4">
+                        <div class="stepImageContainer">
+                            <img src="./assets/img/shape.png" alt="" draggable="false">
+                        </div>
+                        <div class="stepName ml-5">
+                            <h3 class="text-2xl font-bold">
+                                Hydra VR Deploy
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="vector absolute -z-20 bottom-[110px] w-full">
+            <img src="./assets/img/Vector 15.png" alt="" width="100%">
+        </div>
+    </section>
+</body>
+
+</html>
