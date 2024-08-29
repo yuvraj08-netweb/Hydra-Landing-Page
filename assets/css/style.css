@@ -51,3 +51,30 @@ body{
 .techHeaderImg{
     background: url("../img/pexels-rodnae-productions-8097332\ 1.png");
 }
+
+.spanLine{
+background: linear-gradient(270deg, #343045 0%, #C0B7E8 34.9%, #8176AF 68.75%, #343045 100%);
+}
+input,textarea{
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 500px;
+    width: 100%;
+    padding: 20px 30px !important;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px !important;
+    margin-top: 38px !important;
+    outline: none;
+}
+input::placeholder,textarea::placeholder{
+    color: #fff;
+}
+input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+         -webkit-appearance: none;
+      }
+textarea{
+        height: 200px;
+        border-radius: 40px !important;
+    }

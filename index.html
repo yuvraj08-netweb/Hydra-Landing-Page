@@ -20,8 +20,8 @@
     </script>
 </head>
 
-<body class="bg-themeColor text-white">
-    <section id="heroSection">
+<body class="bg-themeColor text-white ">
+    <section id="heroSection" class="relative">
         <div class="navContainer mt-10 container m-auto">
             <nav class="flex justify-between items-center xl:w-full w-[90%] m-auto">
                 <div class="navLeft">
@@ -113,9 +113,16 @@
                 </div>
             </div>
         </div>
+
+    
+            <img src="./assets/img/Vector 1.png" alt="" draggable="false" class="-z-20 absolute top-[150px] right-0">
+            <img src="./assets/img/Vector 2.png" alt="" draggable="false" class="-z-20 absolute top-[0px] right-[150px]">
+            <img src="./assets/img/Vector 3.png" alt="" draggable="false" class="-z-20 absolute top-[400px] right-0">
+            <img src="./assets/img/Vector 4.png" alt="" draggable="false" class="-z-20 absolute top-[190px] left-0">
+ 
     </section>
 
-    <section id="intro" class="mt-32">
+    <section id="intro" class="mt-32 relative">
         <div class="introInner container m-auto">
             <div class="grid grid-cols-2">
                 <div class="gridLeft flex">
@@ -136,7 +143,7 @@
                 </div>
             </div>
         </div>
-        <div class="aboutContainer container m-auto mt-32">
+        <div class="aboutContainer container m-auto mt-32 ">
             <div class="grid grid-cols-2">
                 <div class="gridLeft">
                     <div class="aboutImageContainer ">
@@ -162,10 +169,13 @@
                     <button class=" btn themeBackground mt-9">LET’S GET IN TOUCH</button>
                 </div>
             </div>
+           
         </div>
+        <img src="./assets/img/Vector 7.png" alt="" draggable="false" class="-z-20 absolute bottom-[270px]">
+        <img src="./assets/img/Vector 8.png" alt="" draggable="false" class="-z-20 absolute bottom-[70px]">
     </section>
 
-    <section id="whyBuild" class="mt-32">
+    <section id="whyBuild" class="mt-32 relative">
         <div class="introInner container m-auto">
             <div class="grid grid-cols-2">
                 <div class="gridLeft flex">
@@ -267,6 +277,8 @@
                 </div>
             </div>
         </div>
+
+        <img src="./assets/img/Vector 14.png" alt="" draggable="false" class="-z-20 w-full absolute -bottom-[350px]">
     </section>
 
     <section id="techUsed" class="techUsed mt-32">
@@ -409,6 +421,115 @@
         </div>
         <div class="vector absolute -z-20 bottom-[110px] w-full">
             <img src="./assets/img/Vector 15.png" alt="" width="100%">
+        </div>
+    </section>
+
+    <section id="joinHydra" class="mt-32">
+        <div class="container m-auto">
+            <div class="joiningFormContainer radialBackground p-[90px] text-center rounded-[100px]">
+                <div class="formHeading">
+                    <h2 class="uppercase text-4xl font-bold leading-[50px]">
+                        join hydra
+                    </h2>
+                    <span class="inline-block w-[70%] m-auto spanLine h-[1px]"></span>
+                    <h3 class="text-4xl mt-4">Let’s Build Your VR Experience</h3>
+                </div>
+                <form action="" id="joiningForm" class="mt-9">
+                    <div class="formElement flex">
+                        <input type="text" placeholder="First Name" class="formControl">
+                        <input type="text" placeholder="Last Name" class="formControl ml-2">
+                    </div>
+                    <div class="formElement flex">
+                        <input type="email" placeholder="Email" class="formControl">
+                        <input type="number" placeholder="Your Number" class="formControl ml-2 " min="0" max="10" inputmode="numeric" >
+                    </div>
+                    <div class="formElement">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="formElement">
+                        <textarea name="message" id="message" placeholder="Tell Us Something..."></textarea>
+                    </div>
+                    <div class="formElement mt-9">
+                        <button type="submit" class="btn themeBackground">SEND TO HYDRA</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer" class="mt-32 relative">
+        <div class="container m-auto">
+            <footer>
+                <div class="grid grid-cols-4 font-bold text-[16px] ">
+                    <div class="colOne relative">
+                        <div class="footerImgContainer w-[50%]">
+                            <img src="./assets/img/Frame.png" alt="" width="100%">
+                            <span class="inline-block w-[70%] m-auto spanLine h-[6px] rotate-90 absolute right-0 bottom-[120px]"></span>
+                        </div>
+                    </div>
+                    <div class="colTwo leading-[39.5px] relative">
+                        <div class="navLinksLeft">
+                            <ul class="navL uppercase">
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Service</a></li>
+                                <li><a href="#">TECHNOLOGIES</a></li>
+                                <li><a href="#">How To</a></li>
+                                <li><a href="#">Join Hydra</a></li>
+                            </ul>
+                        </div>
+                        <span class="inline-block w-[70%] m-auto spanLine h-[6px] rotate-90 absolute right-0 bottom-[120px]"></span>
+                    </div>
+                    <div class="colThree leading-[39.5px] relative">
+                        <div class="navLinksRight">
+                            <ul class="navL uppercase">
+                                <li><a href="#">F.A.Q</a></li>
+                                <li><a href="#">Sitemap</a></li>
+                                <li><a href="#">Conditions</a></li>
+                                <li><a href="#">LICENSES</a></li>
+                            </ul>
+                        </div>
+                        <span class="inline-block w-[70%] m-auto spanLine h-[6px] rotate-90 absolute right-0 bottom-[120px]"></span>
+                    </div>
+                    <div class="colFour">
+                        <div class="socialLinks">
+                            <div class="socialHeading uppercase">
+                                <h5>Socialize with hydra</h5>
+                            </div>
+                            <div class="socialIcons flex justify-between mt-9">
+                                <div class="facebook">
+                                    <img src="./assets/img/facebook.png" alt="" draggable="false">
+                                </div>
+                                <div class="twitter">
+                                    <img src="./assets/img/twitter.png" alt="" draggable="false">
+                                </div>
+                                <div class="linkedIn">
+                                    <img src="./assets/img/linkedin.png" alt="" draggable="false">
+                                </div>
+                                <div class="youtube">
+                                    <img src="./assets/img/youtube.png" alt="" draggable="false">
+                                </div>
+                                <div class="instagram">
+                                    <img src="./assets/img/instagram.png" alt="" draggable="false">
+                                </div>
+                                <div class="pintrest">
+                                    <img src="./assets/img/pinterest.png" alt="" draggable="false">
+                                </div>
+                            </div>
+                            <div class="socialButton mt-9">
+                                <button type="button" class="btn themeBackground">BUILD YOUR WORLD</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerBottom text-center font-bold text-[14px] my-9">
+                    <span class="inline-block w-[100%] spanLine h-[1px] mt-9"></span>
+                    <p class="uppercase mt-9">2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED </p>
+                </div>
+            </footer>
+        </div>
+        <div class="lines">
+            <img src="./assets/img/Vector 18.png" alt="" draggable="false" class="-z-20 absolute -top-[40px]">
+            <img src="./assets/img/Vector 19.png" alt="" draggable="false" class="-z-20  absolute -top-[315px]">
         </div>
     </section>
 </body>
