@@ -27,15 +27,15 @@
                 <div class="navLeft">
                     <div class="brand flex items-center">
                         <div class="brandLogo">
-                            <img src="./assets/img/Frame.png" alt="logo" draggable="false">
+                            <img src="./assets/img/Frame.png" alt="logo" draggable="false" class="xl:w-full w-[80%]">
                         </div>
-                        <div class="brandName -mt-4 ml-2">
-                            <img src="./assets/img/Frame (1).png" alt="logo" draggable="false">
+                        <div class="brandName xl:-mt-4 xl:ml-2 lg:-ml-2">
+                            <img src="./assets/img/Frame (1).png" alt="logo" draggable="false" class="xl:w-full w-[80%]">
                         </div>
                     </div>
                 </div>
-                <div class="navRight flex justify-between w-[70%]">
-                    <div class="navRightLeft w-[50%]">
+                <div class="navRight flex xl:justify-between justify-around xl:w-[70%] w-[90%] lg:flex hidden">
+                    <div class="navRightLeft xl:w-[50%] lg:w-[40%]">
                         <ul class="navLinks text-white flex justify-between text-xs font-bold leading-[50px]">
                             <li class="navLink"><a href="#"> ABOUT </a></li>
                             <li class="navLink"><a href="#"> SERVICES </a></li>
@@ -46,68 +46,81 @@
                     <div class="navRightRight">
                         <div class="buttonsContainer flex">
                             <button class="navContact btn text-white border border-2"> CONTACT US </button>
-                            <button class="navJoinHydra btn themeBackground ml-8"> JOIN HYDRA </button>
+                            <button class="navJoinHydra btn themeBackground xl:ml-8 ml-4"> JOIN HYDRA </button>
                         </div>
                     </div>
                 </div>
-
+                <div class="navMobileToggle lg:hidden ">
+                    <div class="toggleButtonContainer">
+                        <img src="./assets/img/Hamburger-Button.png" alt="">
+                    </div>
+                </div>
             </nav>
         </div>
         <div class="heroContent mt-32">
             <div class="heroInner container m-auto">
-                <div class="grid grid-cols-2 xl:w-full w-[90%] m-auto">
-                    <div class="heroLeft">
-                        <div class="heading">
-                            <h1 class="heroHeading text-5xl font-bold leading-[60px]">
+                <div class="grid lg:grid-cols-2  xl:w-full w-[90%] m-auto">
+                    <div class="heroLeft lg:text-left text-center">
+                        <div class="heading lg:mt-0 mt-16">
+                            <h1 class="heroHeading xl:text-5xl md:text-4xl md:text-5xl text-3xl font-bold leading-[60px]">
                                 <span class="textGradientReverse">Dive</span> Into The Depths <br>
                                 Of <span class="textGradient">Virtual Reality</span>
                             </h1>
                         </div>
-                        <div class="heroPara mt-9">
+                        <div class="heroPara mt-9 lg:block hidden">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt ut labore et dolore
                                 nisl tincidunt eget. Lectus mauris eros in vitae .</p>
                         </div>
-                        <div class="heroButton flex items-center mt-16">
-                            <button class="btn themeBackground">BUILD YOUR WORLD</button>
-                            <img src="./assets/img/arrow-small-right.png" alt="">
+                        <div class="heroButton flex items-center lg:justify-start md:justify-center mt-16">
+                            <button class="btn themeBackground md:max-w-max w-[80%] m-auto">BUILD YOUR WORLD</button>
+                            <img src="./assets/img/arrow-small-right.png" alt="" class="lg:block hidden">
                         </div>
                     </div>
-                    <div class="heroRight">
-                        <div class="heroImgContainer">
-                            <img src="./assets/img/girlHeroSection.png" alt="" draggable="false" class="drop-shadow-xl">
+                    <div class="heroRight lg:order-last order-first">
+                        <div class="heroImgContainer md:w-[80%] m-auto">
+                            <img src="./assets/img/girlHeroSection.png" alt="" draggable="false" class="xl:w-full ">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="contactSection mt-32">
+        <div class="contactSection xl:mt-32 mt-28">
             <div
-                class="container m-auto flex items-center xl:justify-center contactInner radialBackgroundSpecial rounded-[500px] min-h-[167px] xl:w-full w-[90%] m-auto break-all">
-                <div class="location flex items-center border-r px-[50px]">
-                    <div class="contactLogo">
-                        <img src="./assets/img/Location-Icon.png" alt="" draggable="false">
+                class="container m-auto flex items-center justify-center  contactInner radialBackgroundSpecial rounded-[500px] min-h-[167px] xl:w-full w-[90%] m-auto break-all">
+                <div class="location flex items-center justify-between lg:border-r xl:px-[50px] lg:px-[30px] px-[20px] xl:w-full lg:max-w-[33%] md:w-full md:px-[40px]">
+                    <div class="cheronLeft lg:hidden ">
+                        <img src="./assets/img/cheronLeft.png" alt="" draggable="false">
                     </div>
-                    <div class="contactInfo">
-                        <h3 class="text-2xl font-bold">Pay Us a Visit</h3>
-                        <p class="paraGraph mt-1">Union St, Seattle, WA 98101, United States</p>
+                    <div class="centerI flex items-center md:w-full w-[70%] ">
+                        <div class="contactLogo">
+                            <img src="./assets/img/Location-Icon.png" alt="" draggable="false">
+                        </div>
+                        <div class="contactInfo ml-5">
+                            <h3 class="xl:text-2xl text-xl font-bold lg:block hidden">Pay Us a Visit</h3>
+                            <p class="paraGraph mt-1">Union St, Seattle, WA 98101, United States</p>
+                        </div>
                     </div>
+                    <div class="cheronRight lg:hidden">
+                        <img src="./assets/img/cheronRight.png" alt="" draggable="false">
+                    </div>
+                    
                 </div>
-                <div class="call flex items-center border-r px-[50px]">
+                <div class="call flex items-center justify-center border-r xl:px-[50px] lg:px-[30px] xl:w-full lg:max-w-[33%] lg:flex hidden">
                     <div class="contactLogo">
                         <img src="./assets/img/phone-call.png" alt="" draggable="false">
                     </div>
-                    <div class="contactInfo ml-8">
-                        <h3 class="text-2xl font-bold">Give Us a Call</h3>
+                    <div class="contactInfo ml-4">
+                        <h3 class="xl:text-2xl text-xl font-bold">Give Us a Call</h3>
                         <p class="paraGraph mt-1">(110) 1111-1010</p>
                     </div>
                 </div>
-                <div class="email flex items-center px-[50px] ">
+                <div class="email flex items-center xl:px-[50px] lg:px-[30px]  xl:w-full lg:max-w-[33%] lg:flex hidden">
                     <div class="contactLogo">
                         <img src="./assets/img/mail.png" alt="" draggable="false">
                     </div>
-                    <div class="contactInfo ml-8">
-                        <h3 class="text-2xl font-bold">Send Us a Message</h3>
+                    <div class="contactInfo ml-4">
+                        <h3 class="xl:text-2xl text-xl font-bold">Send Us a Message</h3>
                         <p class="paraGraph mt-1"><a href="mailto:Contact@HydraVTech.com">Contact@HydraVTech.com</a></p>
                     </div>
                 </div>
@@ -115,24 +128,24 @@
         </div>
 
     
-            <img src="./assets/img/Vector 1.png" alt="" draggable="false" class="-z-20 absolute top-[150px] right-0">
-            <img src="./assets/img/Vector 2.png" alt="" draggable="false" class="-z-20 absolute top-[0px] right-[150px]">
-            <img src="./assets/img/Vector 3.png" alt="" draggable="false" class="-z-20 absolute top-[400px] right-0">
-            <img src="./assets/img/Vector 4.png" alt="" draggable="false" class="-z-20 absolute top-[190px] left-0">
+            <img src="./assets/img/Vector 1.png" alt="" draggable="false" class="-z-20 absolute xl:top-[150px] lg:top-[120px] md:top-[100px] md:right-0 top-0 right-0">
+            <img src="./assets/img/Vector 2.png" alt="" draggable="false" class="-z-20 absolute top-[0px] xl:right-[150px] lg:right-[60px] md:top-[0px] md:right-[250px] right-9">
+            <img src="./assets/img/Vector 3.png" alt="" draggable="false" class="-z-20 absolute xl:top-[400px] lg:top-[370px] right-0 xl:max-w-max lg:w-[55%] md:top-[400px] top-[290px] right-0">
+            <img src="./assets/img/Vector 4.png" alt="" draggable="false" class="-z-20 absolute top-[190px] left-0 lg:block hidden">
  
     </section>
 
     <section id="intro" class="mt-32 relative">
         <div class="introInner container m-auto">
-            <div class="grid grid-cols-2">
-                <div class="gridLeft flex">
-                    <h2 class="uppercase text-4xl font-light leading-[50px]">
+            <div class="grid lg:grid-cols-2 xl:w-full lg:w-[90%] m-auto">
+                <div class="gridLeft flex lg:justify-start justify-center">
+                    <h2 class="uppercase xl:text-4xl lg:text-3xl md:text-4xl text-3xl font-light md:leading-[50px]">
                         <span class="font-bold "> Introduction </span>
                         <br>to hydra vr
                     </h2>
-                    <img src="./assets/img/Component 2.png" alt="" draggable="false" class="mt-6 -ml-5">
+                    <img src="./assets/img/Component 2.png" alt="" draggable="false" class="-ml-5 xl:max-w-max w-[45%] lg:flex hidden">
                 </div>
-                <div class="grid gridRight">
+                <div class="grid gridRight lg:block hidden">
                     <div class="paraContainer">
                         <p class="paraGraph">Vitae sapien pellentesque habitant morbi tristique senectus et netus et.
                             Feugiat
@@ -144,14 +157,14 @@
             </div>
         </div>
         <div class="aboutContainer container m-auto mt-32 ">
-            <div class="grid grid-cols-2">
+            <div class="grid lg:grid-cols-2 xl:w-full w-[90%] m-auto">
                 <div class="gridLeft">
                     <div class="aboutImageContainer ">
-                        <img src="./assets/img/BoyAboutSection.png" alt="" draggable="false">
+                        <img src="./assets/img/BoyAboutSection.png" alt="" draggable="false" class="xl:max-w-max w-[90%] m-auto">
                     </div>
                 </div>
-                <div class="gridRight mt-16">
-                    <h2 class="uppercase text-4xl font-light leading-[50px]">
+                <div class="gridRight xl:mt-16">
+                    <h2 class="uppercase xl:text-4xl lg:text-3xl font-light leading-[50px] lg:block hidden">
                         <span class="font-bold "> ABOUT </span>
                         <br>HYDRA VR
                     </h2>
@@ -166,26 +179,28 @@
                         retra diam sit amet nisl suscipit adipiscing bibendum. Leo a diam sollicitudi
                         n tempor.
                     </p>
-                    <button class=" btn themeBackground mt-9">LET’S GET IN TOUCH</button>
-                </div>
+                    <div class="aboutBtnContainer text-center mt-9">
+                        <button class=" btn themeBackground ">LET’S GET IN TOUCH</button>
+                    </div>
+                    </div>
             </div>
            
         </div>
-        <img src="./assets/img/Vector 7.png" alt="" draggable="false" class="-z-20 absolute bottom-[270px]">
-        <img src="./assets/img/Vector 8.png" alt="" draggable="false" class="-z-20 absolute bottom-[70px]">
+        <img src="./assets/img/Vector 7.png" alt="" draggable="false" class="-z-20 absolute bottom-[270px] lg:block hidden">
+        <img src="./assets/img/Vector 8.png" alt="" draggable="false" class="-z-20 absolute bottom-[70px] lg:block hidden"">
     </section>
 
     <section id="whyBuild" class="mt-32 relative">
         <div class="introInner container m-auto">
-            <div class="grid grid-cols-2">
-                <div class="gridLeft flex">
-                    <h2 class="uppercase text-4xl font-light leading-[50px]">
+            <div class="grid lg:grid-cols-2 xl:w-full w-[90%]  m-auto">
+                <div class="gridLeft flex lg:justify-start justify-center">
+                    <h2 class="uppercase xl:text-4xl lg:text-3xl md:text-4xl text-3xl font-light md:leading-[50px]">
                         <span class="font-bold "> WHY BUILD </span>
                         <br>WITH HYDRA?
                     </h2>
-                    <img src="./assets/img/Component 2.png" alt="" draggable="false" class="mt-6 ml-5">
+                    <img src="./assets/img/Component 2.png" alt="" draggable="false" class="ml-5 xl:max-w-max w-[40%] lg:block hidden">
                 </div>
-                <div class="grid gridRight">
+                <div class="grid gridRight lg:block hidden">
                     <div class="paraContainer">
                         <p class="paraGraph">Vitae sapien pellentesque habitant morbi tristique senectus et netus et.
                             Feugiat
@@ -198,8 +213,27 @@
         </div>
 
         <div class="container m-auto cardsContainer mt-32">
-            <div class="grid grid-cols-4 gap-4">
+            <div class="grid xl:grid-cols-4 lg:grid-cols-3 gap-4 xl:w-full lg:w-[90%] md:w-[80%] w-[70%] m-auto">
                 <div class="card radialBackground text-center rounded-[50px] px-6 py-8">
+                   
+                    <div class="arrows md:hidden flex justify-between relative top-[40%]">
+                        <div class="arrowDownDiv flex absolute -left-[65px]">
+                            <div class="shadow rounded-full bg-[#0E0E0E52] p-4 max-w-max">
+                                <div class="arrowContainer themeBackground max-w-max rounded-full">
+                                    <img src="./assets/img/chevron-small-down.png" alt="" draggable="false" class="rotate-90 w-[50px] m-auto">
+                                </div>
+                            </div>   
+                        </div>
+                        <div class="arrowDownDiv flex absolute -right-[65px]">
+                            <div class="shadow rounded-full bg-[#0E0E0E52] p-4 max-w-max">
+                                <div class="arrowContainer themeBackground max-w-max rounded-full">
+                                    <img src="./assets/img/chevron-small-down.png" alt="" draggable="false" class="rotate-[270deg] w-[50px] m-auto">
+                                </div>
+                            </div>   
+                        </div>
+                    </div>
+                    
+
                     <div class="cardImageContainer rounded-full bg-[#0E0E0E52] max-w-max m-auto p-4">
                         <img src="./assets/img/Mask group (3).png" alt="" draggable="false">
                     </div>
@@ -215,10 +249,10 @@
                         </p>
                     </div>
                     <div class="cardButton mt-9">
-                        <button class="btn themeBackground">TRY IT NOW</button>
+                        <button class="btn themeBackground md:max-w-max w-full">TRY IT NOW</button>
                     </div>
                 </div>
-                <div class="card radialBackground text-center rounded-[50px] px-6 py-8">
+                <div class="card radialBackground text-center rounded-[50px] px-6 py-8 lg:block hidden">
                     <div class="cardImageContainer rounded-full bg-[#0E0E0E52] max-w-max m-auto p-4">
                         <img src="./assets/img/Mask group (4).png" alt="" draggable="false">
                     </div>
@@ -237,7 +271,7 @@
                         <button class="btn themeBackground">TRY IT NOW</button>
                     </div>
                 </div>
-                <div class="card radialBackground text-center rounded-[50px] px-6 py-8">
+                <div class="card radialBackground text-center rounded-[50px] px-6 py-8 lg:block hidden">
                     <div class="cardImageContainer rounded-full bg-[#0E0E0E52] max-w-max m-auto p-4">
                         <img src="./assets/img/Mask group (5).png" alt="" draggable="false">
                     </div>
@@ -256,7 +290,7 @@
                         <button class="btn themeBackground">TRY IT NOW</button>
                     </div>
                 </div>
-                <div class="card radialBackground text-center rounded-[50px] px-6 py-8">
+                <div class="card radialBackground text-center rounded-[50px] px-6 py-8 lg:block hidden">
                     <div class="cardImageContainer rounded-full bg-[#0E0E0E52] max-w-max m-auto p-4">
                         <img src="./assets/img/Mask group (6).png" alt="" draggable="false">
                     </div>
@@ -278,18 +312,18 @@
             </div>
         </div>
 
-        <img src="./assets/img/Vector 14.png" alt="" draggable="false" class="-z-20 w-full absolute -bottom-[350px]">
+        <img src="./assets/img/Vector 14.png" alt="" draggable="false" class="-z-20 w-full absolute -bottom-[350px] md:block hidden">
     </section>
 
     <section id="techUsed" class="techUsed mt-32">
         <div class="techInner container m-auto">
-            <div class="techHeaderImg min-h-[300px] rounded-[500px] flex justify-center items-center">
-                <h2 class="uppercase text-4xl font-light leading-[50px]">
-                    <span class="font-bold "> TECHNOLOGIES & HARDWARE </span>
+            <div class="techHeaderImg min-h-[300px] md:rounded-[500px] rounded-[100px] flex justify-center items-center xl:w-full w-[90%] m-auto md:text-left text-center">
+                <h2 class="uppercase xl:text-4xl text-2xl font-light xl:leading-[50px] lg:leading-[50px] leading-[50px]">
+                    <span class="font-bold text-xl"> TECHNOLOGIES & HARDWARE </span>
                     <br>USED BY HYDRA VR.
                 </h2>
             </div>
-            <div class="arrowDownDiv flex justify-center -mt-8 ">
+            <div class="arrowDownDiv lg:flex hidden justify-center -mt-8 ">
                 <div class="shadow rounded-full bg-[#0E0E0E52] p-4 max-w-max">
                     <div class="arrowContainer themeBackground max-w-max rounded-full">
                         <img src="./assets/img/chevron-small-down.png" alt="" draggable="false">
@@ -299,42 +333,56 @@
             </div>
         </div>
         <div class="techLogos container m-auto">
-            <div class="grid grid-cols-4 ">
-                <div class="techLogo">
+            <div class="grid lg:grid-cols-4 xl:w-full w-[90%] m-auto ">
+                <div class="techLogo lg:block hidden">
                     <div class="techLogoOne">
                         <img src="./assets/img/e637cd9dd39a3af7b7f478409f4afe10.png" alt="" draggable="false" class="opacity-[36%] w-[80%] m-auto ">
                     </div>
                 </div>
-                <div class="techLogo">
+                <div class="techLogo lg:block hidden">
                     <div class="techLogoOne">
                         <img src="./assets/img/unity.png" alt="" draggable="false" class="opacity-[36%] w-[80%] m-auto">
                     </div>
                 </div>
-                <div class="techLogo">
+                <div class="techLogo lg:block hidden">
                     <div class="techLogoOne">
                         <img src="./assets/img/oculus.png" alt="" draggable="false" class="opacity-[36%] w-[80%] m-auto">
                     </div>
                 </div>
                 <div class="techLogo">
-                    <div class="techLogoOne">
-                        <img src="./assets/img/vive.png" alt="" draggable="false" class="opacity-[36%] w-[80%] m-auto">
+                    <div class="techLogoFour flex justify-between items-center">
+                        <div class="arrowDownDiv ">
+                            <div class="shadow rounded-full bg-[#0E0E0E52] p-4 max-w-max">
+                                <div class="arrowContainer themeBackground max-w-max rounded-full">
+                                    <img src="./assets/img/chevron-small-down.png" alt="" draggable="false" class="rotate-90">
+                                </div>
+                            </div>   
+                        </div>
+                        <img src="./assets/img/vive.png" alt="" draggable="false" class="opacity-[36%] md:w-[80%] w-[60%] m-auto">
+                        <div class="arrowDownDiv ">
+                            <div class="shadow rounded-full bg-[#0E0E0E52] p-4 max-w-max">
+                                <div class="arrowContainer themeBackground max-w-max rounded-full">
+                                    <img src="./assets/img/chevron-small-down.png" alt="" draggable="false" class="rotate-[270deg]">
+                                </div>
+                            </div>   
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="howWeBuild" class="mt-32 relative ">
+    <section id="howWeBuild" class="lg:mt-32 relative ">
         <div class="howWeBuildInner container m-auto">
-            <div class="grid grid-cols-2">
-                <div class="gridLeft flex">
-                    <h2 class="uppercase text-4xl font-light leading-[50px]">
+            <div class="grid lg:grid-cols-2 xl:w-full w-[90%] m-auto">
+                <div class="gridLeft flex lg:justify-start justify-center">
+                    <h2 class="uppercase md:text-4xl text-3xl font-light leading-[50px]">
                         <span class="font-bold "> HOW WE BUILD </span>
                         <br>WITH HYDRA VR?
                     </h2>
-                    <img src="./assets/img/Component 2.png" alt="" draggable="false" class="mt-6 ml-5">
+                    <img src="./assets/img/Component 2.png" alt="" draggable="false" class="xl:mt-6 ml-5 xl:max-w-max w-[40%] lg:block hidden">
                 </div>
-                <div class="grid gridRight">
+                <div class="grid gridRight lg:block hidden">
                     <div class="paraContainer">
                         <p class="paraGraph">Vitae sapien pellentesque habitant morbi tristique senectus et netus et.
                             Feugiat
@@ -346,25 +394,41 @@
             </div>
         </div>
         <div class="stepsContainer container m-auto mt-32">
-            <div class="grid grid-cols-4 ">
+            <div class="grid lg:grid-cols-4 xl:w-full w-[90%] m-auto">
                 <div class="step">
                     <div class="shadow bg-[#0E0E0E52] max-w-max m-auto p-4 rounded-full">
                         <div class="stepContainer themeBackground w-[160px] min-h-[160px] rounded-full flex justify-center items-center">
                             <h2 class="text-6xl font-bold">01</h2>
                         </div>
                     </div>
-                    <div class="stepLower flex p-4">
-                        <div class="stepImageContainer">
+                    <div class="stepLower flex justify-between items-center mt-4">
+                        <div class="arrowDownDiv flex ">
+                            <div class="shadow rounded-full bg-[#0E0E0E52] p-4 max-w-max">
+                                <div class="arrowContainer themeBackground max-w-max rounded-full">
+                                    <img src="./assets/img/chevron-small-down.png" alt="" draggable="false" class="rotate-90">
+                                </div>
+                            </div>   
+                        </div>
+                        <div class="stepImageContainer lg:block hidden">
                             <img src="./assets/img/shape.png" alt="" draggable="false">
                         </div>
-                        <div class="stepName ml-5">
+                        
+                        <div class="stepName lg:ml-5 text-center">
                             <h3 class="text-2xl font-bold">
                                 3D Conception & Design
                             </h3>
                         </div>
+                        <div class="arrowDownDiv flex">
+                            <div class="shadow rounded-full bg-[#0E0E0E52] p-4 max-w-max">
+                                <div class="arrowContainer themeBackground max-w-max rounded-full">
+                                    <img src="./assets/img/chevron-small-down.png" alt="" draggable="false" class="rotate-[270deg]">
+                                </div>
+                            </div>   
+                        </div>
                     </div>
+                    
                 </div>
-                <div class="step">
+                <div class="step lg:block hidden">
                     <div class="shadow bg-[#0E0E0E52] max-w-max m-auto p-4 rounded-full">
                         <div class="stepContainer themeBackground w-[160px] min-h-[160px] rounded-full flex justify-center items-center">
                             <h2 class="text-6xl font-bold">02</h2>
@@ -381,7 +445,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="step">
+                <div class="step lg:block hidden">
                     <div class="shadow bg-[#0E0E0E52] max-w-max m-auto p-4 rounded-full">
                         <div class="stepContainer themeBackground w-[160px] min-h-[160px] rounded-full flex justify-center items-center">
                             <h2 class="text-6xl font-bold">03</h2>
@@ -398,7 +462,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="step">
+                <div class="step lg:block hidden" >
                     <div class="shadow bg-[#0E0E0E52] max-w-max m-auto p-4 rounded-full">
                         <div class="stepContainer themeBackground w-[160px] min-h-[160px] rounded-full flex justify-center items-center">
                             <h2 class="text-6xl font-bold">04</h2>
@@ -419,29 +483,29 @@
             </div>
             
         </div>
-        <div class="vector absolute -z-20 bottom-[110px] w-full">
+        <div class="vector absolute -z-20 xl:bottom-[110px] bottom-[150px] w-full lg:block hidden">
             <img src="./assets/img/Vector 15.png" alt="" width="100%">
         </div>
     </section>
 
     <section id="joinHydra" class="mt-32">
         <div class="container m-auto">
-            <div class="joiningFormContainer radialBackground p-[90px] text-center rounded-[100px]">
+            <div class="joiningFormContainer radialBackground md:p-[90px] p-8 py-16 text-center md:rounded-[100px] rounded-[50px] xl:w-full w-[90%] m-auto">
                 <div class="formHeading">
-                    <h2 class="uppercase text-4xl font-bold leading-[50px]">
+                    <h2 class="uppercase md:text-4xl text-3xl font-bold leading-[50px]">
                         join hydra
                     </h2>
-                    <span class="inline-block w-[70%] m-auto spanLine h-[1px]"></span>
-                    <h3 class="text-4xl mt-4">Let’s Build Your VR Experience</h3>
+                    <span class="inline-block md:w-[70%] w-[50%] m-auto spanLine h-[1px]"></span>
+                    <h3 class="md:text-4xl text-2xl mt-4">Let’s Build Your VR Experience</h3>
                 </div>
                 <form action="" id="joiningForm" class="mt-9">
-                    <div class="formElement flex">
+                    <div class="formElement flex md:flex-row flex-col">
                         <input type="text" placeholder="First Name" class="formControl">
-                        <input type="text" placeholder="Last Name" class="formControl ml-2">
+                        <input type="text" placeholder="Last Name" class="formControl md:ml-2">
                     </div>
-                    <div class="formElement flex">
+                    <div class="formElement flex md:flex-row flex-col">
                         <input type="email" placeholder="Email" class="formControl">
-                        <input type="number" placeholder="Your Number" class="formControl ml-2 " min="0" max="10" inputmode="numeric" >
+                        <input type="number" placeholder="Your Number" class="formControl md:ml-2 " min="0" max="10" inputmode="numeric" >
                     </div>
                     <div class="formElement">
                         <input type="text" placeholder="Subject">
@@ -450,7 +514,7 @@
                         <textarea name="message" id="message" placeholder="Tell Us Something..."></textarea>
                     </div>
                     <div class="formElement mt-9">
-                        <button type="submit" class="btn themeBackground">SEND TO HYDRA</button>
+                        <button type="submit" class="btn themeBackground w-full">SEND TO HYDRA</button>
                     </div>
                 </form>
             </div>
@@ -460,14 +524,14 @@
     <section id="footer" class="mt-32 relative">
         <div class="container m-auto">
             <footer>
-                <div class="grid grid-cols-4 font-bold text-[16px] ">
+                <div class="grid lg:grid-cols-4 md:grid-cols-2 font-bold text-[16px] xl:w-full w-[90%] m-auto md:text-left text-center">
                     <div class="colOne relative">
-                        <div class="footerImgContainer w-[50%]">
+                        <div class="footerImgContainer w-[50%] md:m-0 m-auto">
                             <img src="./assets/img/Frame.png" alt="" width="100%">
-                            <span class="inline-block w-[70%] m-auto spanLine h-[6px] rotate-90 absolute right-0 bottom-[120px]"></span>
+                            <span class="md:inline-block hidden w-[70%] m-auto spanLine h-[6px] rotate-90 absolute right-0 bottom-[120px]"></span>
                         </div>
                     </div>
-                    <div class="colTwo leading-[39.5px] relative">
+                    <div class="colTwo leading-[39.5px] relative md:block hidden">
                         <div class="navLinksLeft">
                             <ul class="navL uppercase">
                                 <li><a href="#">About</a></li>
@@ -477,9 +541,9 @@
                                 <li><a href="#">Join Hydra</a></li>
                             </ul>
                         </div>
-                        <span class="inline-block w-[70%] m-auto spanLine h-[6px] rotate-90 absolute right-0 bottom-[120px]"></span>
+                        <span class="lg:inline-block hidden w-[70%] m-auto spanLine h-[6px] rotate-90 absolute right-0 bottom-[120px]"></span>
                     </div>
-                    <div class="colThree leading-[39.5px] relative">
+                    <div class="colThree leading-[39.5px] relative lg:mt-0 mt-20 md:block hidden">
                         <div class="navLinksRight">
                             <ul class="navL uppercase">
                                 <li><a href="#">F.A.Q</a></li>
@@ -488,9 +552,9 @@
                                 <li><a href="#">LICENSES</a></li>
                             </ul>
                         </div>
-                        <span class="inline-block w-[70%] m-auto spanLine h-[6px] rotate-90 absolute right-0 bottom-[120px]"></span>
+                        <span class="inline-block w-[70%] m-auto spanLine h-[6px] rotate-90 absolute right-0 bottom-[120px] md:inline-block hidden"></span>
                     </div>
-                    <div class="colFour">
+                    <div class="colFour lg:mt-0 md:mt-20 mt-12">
                         <div class="socialLinks">
                             <div class="socialHeading uppercase">
                                 <h5>Socialize with hydra</h5>
@@ -521,15 +585,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="footerBottom text-center font-bold text-[14px] my-9">
+                <div class="footerBottom text-center font-bold text-[14px] md:my-9 ">
                     <span class="inline-block w-[100%] spanLine h-[1px] mt-9"></span>
-                    <p class="uppercase mt-9">2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED </p>
+                    <p class="uppercase mt-3 p-6">2023 © HYDRA LANDING PAGE - BY ZINE. E. FALOUTI - ALL RIGHTS RESERVED </p>
                 </div>
             </footer>
         </div>
         <div class="lines">
-            <img src="./assets/img/Vector 18.png" alt="" draggable="false" class="-z-20 absolute -top-[40px]">
-            <img src="./assets/img/Vector 19.png" alt="" draggable="false" class="-z-20  absolute -top-[315px]">
+            <img src="./assets/img/Vector 18.png" alt="" draggable="false" class="-z-20 absolute lg:-top-[40px] md:bottom-[200px] top-[150px]">
+            <img src="./assets/img/Vector 19.png" alt="" draggable="false" class="-z-20  absolute  lg:-top-[315px] md:bottom-[350px] top-[0px]">
         </div>
     </section>
 </body>

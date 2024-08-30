@@ -50,6 +50,9 @@ body{
 }
 .techHeaderImg{
     background: url("../img/pexels-rodnae-productions-8097332\ 1.png");
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .spanLine{
