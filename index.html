@@ -73,7 +73,7 @@
                                 nisl tincidunt eget. Lectus mauris eros in vitae .</p>
                         </div>
                         <div class="heroButton flex items-center lg:justify-start md:justify-center mt-16">
-                            <button class="btn themeBackground md:max-w-max w-[80%] m-auto">BUILD YOUR WORLD</button>
+                            <button class="btn themeBackground md:max-w-max md:m-0 w-[80%] m-auto">BUILD YOUR WORLD</button>
                             <img src="./assets/img/arrow-small-right.png" alt="" class="lg:block hidden">
                         </div>
                     </div>
@@ -317,9 +317,9 @@
 
     <section id="techUsed" class="techUsed mt-32">
         <div class="techInner container m-auto">
-            <div class="techHeaderImg min-h-[300px] md:rounded-[500px] rounded-[100px] flex justify-center items-center xl:w-full w-[90%] m-auto md:text-left text-center">
+            <div class="techHeaderImg min-h-[300px] md:rounded-[500px] rounded-[100px] flex justify-center items-center xl:w-full w-[90%] m-auto text-center">
                 <h2 class="uppercase xl:text-4xl text-2xl font-light xl:leading-[50px] lg:leading-[50px] leading-[50px]">
-                    <span class="font-bold text-xl"> TECHNOLOGIES & HARDWARE </span>
+                    <span class="font-bold  xl:text-4xl md:text-2xl text-xl"> TECHNOLOGIES & HARDWARE </span>
                     <br>USED BY HYDRA VR.
                 </h2>
             </div>
@@ -351,7 +351,7 @@
                 </div>
                 <div class="techLogo">
                     <div class="techLogoFour flex justify-between items-center">
-                        <div class="arrowDownDiv ">
+                        <div class="arrowDownDiv md:hidden block">
                             <div class="shadow rounded-full bg-[#0E0E0E52] p-4 max-w-max">
                                 <div class="arrowContainer themeBackground max-w-max rounded-full">
                                     <img src="./assets/img/chevron-small-down.png" alt="" draggable="false" class="rotate-90">
@@ -359,7 +359,7 @@
                             </div>   
                         </div>
                         <img src="./assets/img/vive.png" alt="" draggable="false" class="opacity-[36%] md:w-[80%] w-[60%] m-auto">
-                        <div class="arrowDownDiv ">
+                        <div class="arrowDownDiv md:hidden block">
                             <div class="shadow rounded-full bg-[#0E0E0E52] p-4 max-w-max">
                                 <div class="arrowContainer themeBackground max-w-max rounded-full">
                                     <img src="./assets/img/chevron-small-down.png" alt="" draggable="false" class="rotate-[270deg]">
@@ -401,8 +401,8 @@
                             <h2 class="text-6xl font-bold">01</h2>
                         </div>
                     </div>
-                    <div class="stepLower flex justify-between items-center mt-4">
-                        <div class="arrowDownDiv flex ">
+                    <div class="stepLower flex md:justify-start justify-between md:items-start items-center mt-4">
+                        <div class="arrowDownDiv flex  md:hidden block">
                             <div class="shadow rounded-full bg-[#0E0E0E52] p-4 max-w-max">
                                 <div class="arrowContainer themeBackground max-w-max rounded-full">
                                     <img src="./assets/img/chevron-small-down.png" alt="" draggable="false" class="rotate-90">
@@ -413,12 +413,12 @@
                             <img src="./assets/img/shape.png" alt="" draggable="false">
                         </div>
                         
-                        <div class="stepName lg:ml-5 text-center">
+                        <div class="stepName lg:ml-5 md:text-start text-center">
                             <h3 class="text-2xl font-bold">
                                 3D Conception & Design
                             </h3>
                         </div>
-                        <div class="arrowDownDiv flex">
+                        <div class="arrowDownDiv flex md:hidden block">
                             <div class="shadow rounded-full bg-[#0E0E0E52] p-4 max-w-max">
                                 <div class="arrowContainer themeBackground max-w-max rounded-full">
                                     <img src="./assets/img/chevron-small-down.png" alt="" draggable="false" class="rotate-[270deg]">
@@ -514,7 +514,7 @@
                         <textarea name="message" id="message" placeholder="Tell Us Something..."></textarea>
                     </div>
                     <div class="formElement mt-9">
-                        <button type="submit" class="btn themeBackground w-full">SEND TO HYDRA</button>
+                        <button type="submit" class="btn themeBackground md:max-w-max w-full">SEND TO HYDRA</button>
                     </div>
                 </form>
             </div>
